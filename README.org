@@ -1,21 +1,59 @@
-# Created 2015-04-05 Sun 13:46
+# Created 2015-04-05 Sun 23:59
 #+TITLE: Color Schemes for ConEmu
 #+AUTHOR: Joon Ro
 * Color Schemes
-- moe-theme (light and dark)
+- [[https://github.com/kuanyui/moe-theme.el][moe-theme]] (light and dark)
+
+  [[file:ConEmu/img/moe-light.png][moe-light]]   [[file:ConEmu/img/moe-dark.png][moe-dark]]
 * How to Install
 - Currently you have to manually add color schemes and modify the =ConEmu.xml=
     file.
 
-  1. Find out how many custom palettes you have. Paste the color scheme part
-     to the end of palette settings.
-  2. Update the key name =PaletteX= accordingly. For example, if you have 1
-     custom color palette, it should be =Pallet2= for the new one.
-  3. Make sure to increase the value for key name =Count= under key =Colors=
+  1. Open =ConEmu.xml=. Usually it is at  =~\AppData\Roaming=, where =~= is
+     your home directory (=C:\Users\UserName=).
+  2. Paste the color scheme at the end of palette settings part. It starts with 
+     the following:
+     #+BEGIN_SRC xml
+     	   <key name="Colors" modified="2015-03-19 13:53:09" build="150310">
+     		   <value name="Count" type="dword" data="00000001"/>
+     		   <key name="Palette1" modified="2015-03-19 13:53:09" build="150310">
+     #+END_SRC
+
+  3. If you do not have any custom color scheme, the xml key is not there. In
+     ConEmu, go to =Settings= -> =Feature= -> =Colors= and generate a custom
+     color theme by click on =Save= button and specify any name. Then =Colors=
+     key will be automatically generated in your =ConEmu.xml=. You can
+     overwrite it when you add new themes.
+
+  4. Update the palette number (key name =PaletteX=) accordingly. For example, if you have 1
+     custom color palette already, it should be =Pallet2= for the new one:
+     #+BEGIN_SRC xml
+          		   <key name="Palette2" modified="2015-03-19 13:53:09" build="150310">
+     #+END_SRC
+
+  5. Make sure to increase the value for key name =Count= under key =Colors=
           as well. It should equal to the total number of pallets you have:
 
      #+BEGIN_SRC xml
      <value name="Count" type="dword" data="00000002"/>
+     #+END_SRC
+  6. For example, the =Colors= part of your modified =ConEmu.xml= should look like this:
+     #+BEGIN_SRC xml
+       <key name="Colors" modified="2015-03-19 13:53:09" build="150310">
+     	  <value name="Count" type="dword" data="00000002"/>
+     	  <key name="Palette1" modified="2015-03-19 13:53:09" build="150310">
+     		  <value name="Name" type="string" data="EXISTING COLOR"/>
+     		  <value name="ExtendColors" type="hex" data="00"/>
+               ...
+     		  <value name="ColorTable31" type="dword" data="00e3f6fd"/>
+           </key>
+     	  <key name="Palette2" modified="2015-03-19 13:53:09" build="150310">
+     		  <value name="Name" type="string" data="NAME OF THE COLOR YOU ADDED"/>
+     		  <value name="ExtendColors" type="hex" data="01"/>
+               ...
+     		  <value name="ColorTable31" type="dword" data="00e7fdfd"/>
+           </key>
+       </key>      
      #+END_SRC
 * Template
 The following is the template for color schemes with the default colors that
