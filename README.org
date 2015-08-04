@@ -1,4 +1,4 @@
-# Created 2015-08-04 Tue 12:57
+# Created 2015-08-04 Tue 13:22
 #+TITLE: Color Schemes for ConEmu
 #+AUTHOR: Joon Ro
 * Color Schemes
@@ -13,6 +13,10 @@
     [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/moe-dark.png]]
 
 - [[http://ethanschoonover.com/solarized][Solarized]]
+
+  - light
+
+    [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/solarized-light.png]]
 
   - dark
 
