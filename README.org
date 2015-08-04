@@ -1,4 +1,4 @@
-# Created 2015-08-04 Tue 12:51
+# Created 2015-08-04 Tue 12:57
 #+TITLE: Color Schemes for ConEmu
 #+AUTHOR: Joon Ro
 * Color Schemes
@@ -16,7 +16,7 @@
 
   - dark
 
-    [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/solarized-light.png]]
+    [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/solarized-dark.png]]
 * How to Install
 - Currently you have to manually add color schemes and modify the =ConEmu.xml=
     file.
