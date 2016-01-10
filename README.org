@@ -1,6 +1,10 @@
-# Created 2015-08-06 Thu 23:53
+# Created 2016-01-09 Sat 19:19
 #+TITLE: Color Schemes for ConEmu
 #+AUTHOR: Joon Ro
+I port my favorite color schemes to ConEmu. Note that screenshots are taken
+with the prompt customized with [[https://github.com/dahlbyk/posh-git][posh-git]] and the =Get-ChildItem= with
+[[https://github.com/joonro/Get-ChildItem-Color][Get-ChildItem-Color]]. I plan to write how to apply these customizations in your
+PowerShell profile, and when I do, I will update this with the link to it.
 * Color Schemes List
 - [[https://github.com/kuanyui/moe-theme.el][moe-theme]]
 
