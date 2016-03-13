@@ -6,6 +6,10 @@ with the prompt customized with [[https://github.com/dahlbyk/posh-git][posh-git]
 [[https://github.com/joonro/Get-ChildItem-Color][Get-ChildItem-Color]]. I plan to write how to apply these customizations in your
 PowerShell profile, and when I do, I will update this with the link to it.
 * Color Schemes List
+- [[https://github.com/zenorocha/dracula-theme][Dracula]] (thanks to [[https://github.com/radmonac][Radmon]])
+
+  [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/dracula.png]]
+
 - [[https://github.com/kuanyui/moe-theme.el][moe-theme]]
 
   - light
