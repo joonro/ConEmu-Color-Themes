@@ -1,4 +1,4 @@
-# Created 2016-03-13 Sun 16:31
+# Created 2016-03-13 Sun 16:34
 #+TITLE: Color Schemes for ConEmu
 #+AUTHOR: Joon Ro
 I port my favorite color schemes to ConEmu. Note that screenshots are taken
@@ -8,41 +8,27 @@ PowerShell profile, and when I do, I will update this with the link to it.
 * Color Schemes List
 - [[https://github.com/zenorocha/dracula-theme][Dracula]] (thanks to [[https://github.com/radmonac][Radmon]])
 
-  - Dracula
+  [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/dracula.png]]
 
-    [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/dracula.png]]
+- Emacs [[https://github.com/cpaulik/emacs-material-theme][material-theme]] (light)
 
-- Emacs [[https://github.com/cpaulik/emacs-material-theme][material-theme]]
+  [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/material-light.png]]
 
-  - light
+- [[https://github.com/kuanyui/moe-theme.el][moe-theme]] (light and dark)
 
-    [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/material-light.png]]
+  [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/moe-light.png]]
 
-- [[https://github.com/kuanyui/moe-theme.el][moe-theme]]
+  [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/moe-dark.png]]
 
-  - light
+- [[http://ethanschoonover.com/solarized][Solarized]] (light and dark)
 
-    [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/moe-light.png]]
+  [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/solarized-light.png]]
 
-  - dark
+  [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/solarized-dark.png]]
 
-    [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/moe-dark.png]]
+- [[https://chriskempson.github.io/base16/#ocean][Base16 Ocean]] (dark)
 
-- [[http://ethanschoonover.com/solarized][Solarized]]
-
-  - light
-
-    [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/solarized-light.png]]
-
-  - dark
-
-    [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/solarized-dark.png]]
-
-- [[https://chriskempson.github.io/base16/][Base16]] 
-
-  - Ocean dark
-
-    [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/spacegray.png]]
+  [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/spacegray.png]]
 
 * How to Install
 - Currently you have to manually add color schemes and modify the =ConEmu.xml=
