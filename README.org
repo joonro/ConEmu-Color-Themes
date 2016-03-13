@@ -1,4 +1,4 @@
-# Created 2016-01-09 Sat 19:38
+# Created 2016-03-13 Sun 16:19
 #+TITLE: Color Schemes for ConEmu
 #+AUTHOR: Joon Ro
 I port my favorite color schemes to ConEmu. Note that screenshots are taken
@@ -9,6 +9,12 @@ PowerShell profile, and when I do, I will update this with the link to it.
 - [[https://github.com/zenorocha/dracula-theme][Dracula]] (thanks to [[https://github.com/radmonac][Radmon]])
 
   [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/dracula.png]]
+
+- Emacs [[https://github.com/cpaulik/emacs-material-theme][material-theme]]
+
+  - light
+
+    [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/material-light.png]]
 
 - [[https://github.com/kuanyui/moe-theme.el][moe-theme]]
 
