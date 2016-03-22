@@ -1,15 +1,19 @@
-# Created 2016-03-13 Sun 16:43
+# Created 2016-03-22 Tue 08:58
 #+TITLE: Color Schemes for ConEmu
 #+AUTHOR: Joon Ro
 I port my favorite color schemes to ConEmu. Note that screenshots are taken
 with the prompt customized with [[https://github.com/dahlbyk/posh-git][posh-git]] and the =Get-ChildItem= with
 [[https://github.com/joonro/Get-ChildItem-Color][Get-ChildItem-Color]]. See this [[http://joonro.github.io/blog/posts/powershell-customizations.html][blog post]] for my PowerShell customizations.
 * Color Schemes List
+- [[https://chriskempson.github.io/base16/#ocean][Base16 Ocean]] (dark)
+
+  [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/spacegray.png]]
+
 - [[https://github.com/zenorocha/dracula-theme][Dracula]] (thanks to [[https://github.com/radmonac][Radmon]])
 
   [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/dracula.png]]
 
-- Emacs [[https://github.com/cpaulik/emacs-material-theme][material-theme]] (light)
+- [[https://github.com/cpaulik/emacs-material-theme][material-theme]] (light)
 
   [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/material-light.png]]
 
@@ -25,9 +29,9 @@ with the prompt customized with [[https://github.com/dahlbyk/posh-git][posh-git]
 
   [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/solarized-dark.png]]
 
-- [[https://chriskempson.github.io/base16/#ocean][Base16 Ocean]] (dark)
+- [[https://github.com/nashamri/spacemacs-theme][Spacemacs]] (dark)
 
-  [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/spacegray.png]]
+  [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/spacemacs-dark.png]]
 
 * How to Install
 - Currently you have to manually add color schemes and modify the =ConEmu.xml=
@@ -93,9 +97,9 @@ you can use. (It is also in =Default.xml=)
 	<value name="PopBackColorIdx" type="hex" data="10"/>
 	<value name="ColorTable00" type="dword" data="00000000"/>  <!-- Black -->
 	<value name="ColorTable01" type="dword" data="00000080"/>  <!-- DarkBlue (Comments) -->
-	<value name="ColorTable02" type="dword" data="00008000"/>  <!-- DarkGreen (Git Diff) -->
+	<value name="ColorTable02" type="dword" data="00008000"/>  <!-- DarkGreen (Git Add) -->
 	<value name="ColorTable03" type="dword" data="00008080"/>  <!-- DarkCyan (String) -->
-	<value name="ColorTable04" type="dword" data="00800000"/>  <!-- DarkRed (Git Diff) -->
+	<value name="ColorTable04" type="dword" data="00800000"/>  <!-- DarkRed (Git Remove) -->
 	<value name="ColorTable05" type="dword" data="00800080"/>  <!-- DarkMagenta -->
 	<value name="ColorTable06" type="dword" data="00808000"/>  <!-- DarkYellow -->
 	<value name="ColorTable07" type="dword" data="00c0c0c0"/>  <!-- Gray (Default Text) -->
