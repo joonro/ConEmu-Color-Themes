@@ -1,9 +1,11 @@
-# Created 2016-03-22 Tue 08:58
+# Created 2016-05-16 Mon 11:15
 #+TITLE: Color Schemes for ConEmu
 #+AUTHOR: Joon Ro
-I port my favorite color schemes to ConEmu. Note that screenshots are taken
+I port my favorite color schemes to [[https://conemu.github.io/][ConEmu]]. Note that screenshots are taken
 with the prompt customized with [[https://github.com/dahlbyk/posh-git][posh-git]] and the =Get-ChildItem= with
 [[https://github.com/joonro/Get-ChildItem-Color][Get-ChildItem-Color]]. See this [[http://joonro.github.io/blog/posts/powershell-customizations.html][blog post]] for my PowerShell customizations.
+
+My current favorites are =material-light= and =Oceans16 Dark=
 * Color Schemes List
 - [[https://chriskempson.github.io/base16/#ocean][Base16 Ocean]] (dark)
 
@@ -22,6 +24,10 @@ with the prompt customized with [[https://github.com/dahlbyk/posh-git][posh-git]
   [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/moe-light.png]]
 
   [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/moe-dark.png]]
+
+- [[https://github.com/dunovank/oceans16-syntax][Oceans16]] (dark)
+
+  [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/oceans16-dark.png]]
 
 - [[http://ethanschoonover.com/solarized][Solarized]] (light and dark)
 
@@ -97,9 +103,9 @@ you can use. (It is also in =Default.xml=)
 	<value name="PopBackColorIdx" type="hex" data="10"/>
 	<value name="ColorTable00" type="dword" data="00000000"/>  <!-- Black -->
 	<value name="ColorTable01" type="dword" data="00000080"/>  <!-- DarkBlue (Comments) -->
-	<value name="ColorTable02" type="dword" data="00008000"/>  <!-- DarkGreen (Git Add) -->
+	<value name="ColorTable02" type="dword" data="00008000"/>  <!-- DarkGreen (Git diff add) -->
 	<value name="ColorTable03" type="dword" data="00008080"/>  <!-- DarkCyan (String) -->
-	<value name="ColorTable04" type="dword" data="00800000"/>  <!-- DarkRed (Git Remove) -->
+	<value name="ColorTable04" type="dword" data="00800000"/>  <!-- DarkRed (Git diff remove) -->
 	<value name="ColorTable05" type="dword" data="00800080"/>  <!-- DarkMagenta -->
 	<value name="ColorTable06" type="dword" data="00808000"/>  <!-- DarkYellow -->
 	<value name="ColorTable07" type="dword" data="00c0c0c0"/>  <!-- Gray (Default Text) -->
@@ -110,7 +116,7 @@ you can use. (It is also in =Default.xml=)
 	<value name="ColorTable12" type="dword" data="00ff0000"/>  <!-- Red -->
 	<value name="ColorTable13" type="dword" data="00ff00ff"/>  <!-- Magenta -->
 	<value name="ColorTable14" type="dword" data="00ffff00"/>  <!-- Yellow -->
-	<value name="ColorTable15" type="dword" data="00ffffff"/>  <!-- White (Number, Diff Text) -->
+	<value name="ColorTable15" type="dword" data="00ffffff"/>  <!-- White (Number, Git diff text) -->
 	<value name="ColorTable16" type="dword" data="00000000"/>
 	<value name="ColorTable17" type="dword" data="00000080"/>
 	<value name="ColorTable18" type="dword" data="00008000"/>
