@@ -1,16 +1,16 @@
-# Created 2017-01-05 Thu 21:06
+# Created 2017-01-05 Thu 21:11
 #+TITLE: Screenshots
 #+AUTHOR: Joon Ro
 - [[https://chriskempson.github.io/base16/][Base16]]
   - Ocean (dark)
 
-    https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/base16-ocean-dark.png
+    [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/base16-ocean-dark.png]]
 
   - Railscasts (light and dark)
 
-    https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/base16-railscasts-light.png
+    [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/base16-railscasts-light.png]] 
 
-    https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/base16-railscasts-dark.png
+    [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/base16-railscasts-dark.png]]
 
 - [[https://github.com/zenorocha/dracula-theme][Dracula]] (thanks to [[https://github.com/radmonac][Radmon]])
 
@@ -32,10 +32,10 @@
 
 - [[http://ethanschoonover.com/solarized][Solarized]] (light and dark)
 
-  https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/solarized-light.png
+  [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/solarized-light.png]]
 
-  https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/solarized-dark.png
+  [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/solarized-dark.png]]
 
 - [[https://github.com/nashamri/spacemacs-theme][Spacemacs]] (dark)
 
-  https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/spacemacs-dark.png
+  [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/spacemacs-dark.png]]
