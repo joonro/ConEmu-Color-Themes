@@ -1,0 +1,41 @@
+# Created 2017-01-05 Thu 21:18
+#+TITLE: Screenshots
+#+AUTHOR: Joon Ro
+- [[https://chriskempson.github.io/base16/][Base16]]
+  - Ocean (dark)
+
+    [[file:./img/base16-ocean-dark.png]]
+
+  - Railscasts (light and dark)
+
+    [[file:./img/base16-railscasts-light.png]] 
+
+    [[file:./img/base16-railscasts-dark.png]]
+
+- [[https://github.com/zenorocha/dracula-theme][Dracula]] (thanks to [[https://github.com/radmonac][Radmon]])
+
+  [[file:./img/dracula.png]]
+
+- [[https://github.com/cpaulik/emacs-material-theme][material-theme]] (light)
+
+  [[file:./img/material-light.png]]
+
+- [[https://github.com/kuanyui/moe-theme.el][moe-theme]] (light and dark)
+
+  [[file:./img/moe-light.png]]
+
+  [[file:./img/moe-dark.png]]
+
+- [[https://github.com/dunovank/oceans16-syntax][Oceans16]] (dark)
+
+  [[file:./img/oceans16-dark.png]]
+
+- [[http://ethanschoonover.com/solarized][Solarized]] (light and dark)
+
+  [[file:./img/solarized-light.png]]
+
+  [[file:./img/solarized-dark.png]]
+
+- [[https://github.com/nashamri/spacemacs-theme][Spacemacs]] (dark)
+
+  [[file:./img/spacemacs-dark.png]]
