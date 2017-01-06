@@ -1,4 +1,4 @@
-# Created 2017-01-05 Thu 21:18
+# Created 2017-01-05 Thu 21:36
 #+TITLE: Color Schemes for ConEmu
 #+AUTHOR: Joon Ro
 I port my favorite color schemes to [[https://conemu.github.io/][ConEmu]]. Note that screenshots are taken
@@ -126,3 +126,6 @@ you can use. (It is also in =Default.xml=)
 	<value name="ColorTable31" type="dword" data="00ffffff"/>
 </key>
 #+END_SRC
+* Changelog
+** January 2017
+- Add =bas16-railscasts= (light and dark)
