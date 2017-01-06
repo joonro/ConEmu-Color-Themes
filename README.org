@@ -1,4 +1,4 @@
-# Created 2017-01-05 Thu 21:13
+# Created 2017-01-05 Thu 21:16
 #+TITLE: Color Schemes for ConEmu
 #+AUTHOR: Joon Ro
 I port my favorite color schemes to [[https://conemu.github.io/][ConEmu]]. Note that screenshots are taken
@@ -10,11 +10,11 @@ My current favorites are =material-light= and =Oceans16 Dark=
 * Examples
 - [[https://github.com/cpaulik/emacs-material-theme][material-theme]] (light)
 
-  [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/material-light.png]]
+  [[img/material-light.png]]
 
 - [[https://github.com/dunovank/oceans16-syntax][Oceans16]] (dark)
 
-  [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/oceans16-dark.png]]
+  [[file:./img/oceans16-dark.png]]
 
 * Color Schemes List
 
