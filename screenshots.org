@@ -1,41 +1,41 @@
-# Created 2017-01-05 Thu 21:11
+# Created 2017-01-05 Thu 21:18
 #+TITLE: Screenshots
 #+AUTHOR: Joon Ro
 - [[https://chriskempson.github.io/base16/][Base16]]
   - Ocean (dark)
 
-    [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/base16-ocean-dark.png]]
+    [[file:./img/base16-ocean-dark.png]]
 
   - Railscasts (light and dark)
 
-    [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/base16-railscasts-light.png]] 
+    [[file:./img/base16-railscasts-light.png]] 
 
-    [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/base16-railscasts-dark.png]]
+    [[file:./img/base16-railscasts-dark.png]]
 
 - [[https://github.com/zenorocha/dracula-theme][Dracula]] (thanks to [[https://github.com/radmonac][Radmon]])
 
-  [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/dracula.png]]
+  [[file:./img/dracula.png]]
 
 - [[https://github.com/cpaulik/emacs-material-theme][material-theme]] (light)
 
-  [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/material-light.png]]
+  [[file:./img/material-light.png]]
 
 - [[https://github.com/kuanyui/moe-theme.el][moe-theme]] (light and dark)
 
-  [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/moe-light.png]]
+  [[file:./img/moe-light.png]]
 
-  [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/moe-dark.png]]
+  [[file:./img/moe-dark.png]]
 
 - [[https://github.com/dunovank/oceans16-syntax][Oceans16]] (dark)
 
-  [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/oceans16-dark.png]]
+  [[file:./img/oceans16-dark.png]]
 
 - [[http://ethanschoonover.com/solarized][Solarized]] (light and dark)
 
-  [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/solarized-light.png]]
+  [[file:./img/solarized-light.png]]
 
-  [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/solarized-dark.png]]
+  [[file:./img/solarized-dark.png]]
 
 - [[https://github.com/nashamri/spacemacs-theme][Spacemacs]] (dark)
 
-  [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/spacemacs-dark.png]]
+  [[file:./img/spacemacs-dark.png]]
