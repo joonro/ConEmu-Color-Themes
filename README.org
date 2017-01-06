@@ -1,4 +1,4 @@
-# Created 2016-05-16 Mon 11:15
+# Created 2017-01-05 Thu 21:06
 #+TITLE: Color Schemes for ConEmu
 #+AUTHOR: Joon Ro
 I port my favorite color schemes to [[https://conemu.github.io/][ConEmu]]. Note that screenshots are taken
@@ -6,42 +6,32 @@ with the prompt customized with [[https://github.com/dahlbyk/posh-git][posh-git]
 [[https://github.com/joonro/Get-ChildItem-Color][Get-ChildItem-Color]]. See this [[http://joonro.github.io/blog/posts/powershell-customizations.html][blog post]] for my PowerShell customizations.
 
 My current favorites are =material-light= and =Oceans16 Dark=
-* Color Schemes List
-- [[https://chriskempson.github.io/base16/#ocean][Base16 Ocean]] (dark)
 
-  [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/spacegray.png]]
-
-- [[https://github.com/zenorocha/dracula-theme][Dracula]] (thanks to [[https://github.com/radmonac][Radmon]])
-
-  [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/dracula.png]]
-
+* Examples
 - [[https://github.com/cpaulik/emacs-material-theme][material-theme]] (light)
 
   [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/material-light.png]]
-
-- [[https://github.com/kuanyui/moe-theme.el][moe-theme]] (light and dark)
-
-  [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/moe-light.png]]
-
-  [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/moe-dark.png]]
 
 - [[https://github.com/dunovank/oceans16-syntax][Oceans16]] (dark)
 
   [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/oceans16-dark.png]]
 
+- For all screenshots, see [[https://github.com/joonro/ConEmu-Color-Themes/blob/master/screenshots.org][screenshots]]
+
+* Color Schemes List
+- [[https://chriskempson.github.io/base16/][Base16]]
+  - Ocean (dark)
+  - Railscasts (light and dark)
+
+- [[https://github.com/zenorocha/dracula-theme][Dracula]] (thanks to [[https://github.com/radmonac][Radmon]])
+- [[https://github.com/cpaulik/emacs-material-theme][material-theme]] (light)
+- [[https://github.com/kuanyui/moe-theme.el][moe-theme]] (light and dark)
+- [[https://github.com/dunovank/oceans16-syntax][Oceans16]] (dark)
 - [[http://ethanschoonover.com/solarized][Solarized]] (light and dark)
-
-  [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/solarized-light.png]]
-
-  [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/solarized-dark.png]]
-
 - [[https://github.com/nashamri/spacemacs-theme][Spacemacs]] (dark)
-
-  [[https://raw.githubusercontent.com/joonro/ConEmu-Color-Themes/master/img/spacemacs-dark.png]]
-
 * How to Install
 - Currently you have to manually add color schemes and modify the =ConEmu.xml=
-    file.
+  file.
 
   1. Open =ConEmu.xml=. Usually it is at  =~\AppData\Roaming=, where =~= is
      your home directory (=C:\Users\UserName=).
@@ -66,7 +56,7 @@ My current favorites are =material-light= and =Oceans16 Dark=
      #+END_SRC
 
   5. Make sure to increase the value for key name =Count= under key =Colors=
-          as well. It should equal to the total number of pallets you have:
+     as well. It should equal to the total number of pallets you have:
 
      #+BEGIN_SRC xml
      <value name="Count" type="dword" data="00000002"/>
