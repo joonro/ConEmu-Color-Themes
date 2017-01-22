@@ -51,7 +51,7 @@ For all screenshots, see [[screenshots.org][screenshots]]
      overwrite it when you add new themes.
 
   4. Update the palette number (key name =PaletteX=) accordingly. For example, if you have 1
-     custom color palette already, it should be =Pallet2= for the new one:
+     custom color palette already, it should be =Pallete2= for the new one:
      #+BEGIN_SRC xml
      <key name="Palette2" modified="2015-03-19 13:53:09" build="150310">
      #+END_SRC
