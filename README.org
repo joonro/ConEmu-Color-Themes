@@ -1,4 +1,4 @@
-# Created 2017-02-05 Sun 18:10
+# Created 2017-02-05 Sun 20:01
 #+TITLE: Color Schemes for ConEmu
 #+AUTHOR: Joon Ro
 I port my favorite color schemes to [[https://conemu.github.io/][ConEmu]]. Note that screenshots are taken
@@ -32,6 +32,22 @@ For all screenshots, see [[screenshots.org][screenshots]]
 - [[https://github.com/nashamri/spacemacs-theme][Spacemacs]] (dark)
 * How to Install
 There's two methods.
+** Use =Install-ConEmuTheme.ps1= PowerShell script.
+- Use =Install-ConEmuTheme.ps1= PowerShell script. First, the script will always create
+  a backup of your config file as =ConEmu.backup.xml= prior to doing anything else. It's
+  got two operation modes:
+
+  1. To add a theme to your config file:
+     #+BEGIN_SRC ps1
+          .\Install-ConEmuTheme.ps1 [-ConfigPath C:\Users\You\AppData\Roaming\ConEmu.xml] -Operation Add -ThemePathOrName ..\oceans16-dark.xml
+     #+END_SRC
+  2. To remove a theme from your config file:
+     #+BEGIN_SRC ps1
+          .\Install-ConEmuTheme.ps1 [-ConfigPath C:\Users\You\AppData\Roaming\ConEmu.xml] -Operation Remove -ThemePathOrName "Oceans16 Dark"
+     #+END_SRC
+
+- Note that ~-ConfigPath~ argument is optional if your =ConEmu.xml= is located
+  at the default location (=C:\Users\You\AppData\Roaming\ConEmu.xml=).
 ** Manually add color schemes and modify the =ConEmu.xml= file:
 1. Open =ConEmu.xml=. Usually it is at  =~\AppData\Roaming=, where =~= is
    your home directory (=C:\Users\UserName=).
@@ -79,19 +95,6 @@ There's two methods.
         	</key>
         </key>      
    #+END_SRC
-** Use =Install-ConEmuTheme.ps1= PowerShell script.
-- Use =Install-ConEmuTheme.ps1= PowerShell script. First, the script will always create
-  a backup of your config file as =ConEmu.backup.xml= prior to doing anything else. It's
-  got two operation modes:
-
-  1. To add a theme to your config file:
-     #+BEGIN_SRC ps1
-          .\Install-ConEmuTheme.ps1 -ConfigPath C:\Users\You\AppData\Roaming\ConEmu.xml -Operation Add -ThemePathOrName ..\oceans16-dark.xml
-     #+END_SRC
-  2. To remove a theme from your config file:
-     #+BEGIN_SRC ps1
-          .\Install-ConEmuTheme.ps1 -ConfigPath C:\Users\You\AppData\Roaming\ConEmu.xml -Operation Remove -ThemePathOrName "Oceans16 Dark"
-     #+END_SRC
 * Template
 The following is the template for color schemes with the default colors that
 you can use. (It is also in =Default.xml=)
