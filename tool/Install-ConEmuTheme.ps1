@@ -1,11 +1,11 @@
 [CmdletBinding()]
 
 param (
-    [Parameter(Position = 0, Mandatory = $true)]
+    [Parameter(Position = 0, Mandatory = $false)]
     [ValidateNotNullOrEmpty()]
     [ValidateScript({Test-Path -Path $_})]
     [string]
-    $ConfigPath,
+    $ConfigPath = $env:APPDATA + "\ConEmu.xml",
 
     [Parameter(Position = 1, Mandatory = $true)]
     [ValidateSet("Add", "Remove")]
