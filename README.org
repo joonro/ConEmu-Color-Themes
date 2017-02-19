@@ -1,4 +1,4 @@
-# Created 2017-01-05 Thu 21:36
+# Created 2017-02-05 Sun 18:10
 #+TITLE: Color Schemes for ConEmu
 #+AUTHOR: Joon Ro
 I port my favorite color schemes to [[https://conemu.github.io/][ConEmu]]. Note that screenshots are taken
@@ -17,7 +17,6 @@ My current favorites are =material-light= and =Oceans16 Dark=
   [[file:./img/oceans16-dark.png]]
 
 * Color Schemes List
-
 For all screenshots, see [[screenshots.org][screenshots]]
 
 - [[https://chriskempson.github.io/base16/][Base16]]
@@ -27,58 +26,71 @@ For all screenshots, see [[screenshots.org][screenshots]]
 - [[https://github.com/zenorocha/dracula-theme][Dracula]] (thanks to [[https://github.com/radmonac][Radmon]])
 - [[https://github.com/cpaulik/emacs-material-theme][material-theme]] (light)
 - [[https://github.com/kuanyui/moe-theme.el][moe-theme]] (light and dark)
+- [[http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/][Monokai]]
 - [[https://github.com/dunovank/oceans16-syntax][Oceans16]] (dark)
 - [[http://ethanschoonover.com/solarized][Solarized]] (light and dark)
 - [[https://github.com/nashamri/spacemacs-theme][Spacemacs]] (dark)
 * How to Install
-- Currently you have to manually add color schemes and modify the =ConEmu.xml=
-  file.
+There's two methods.
+** Manually add color schemes and modify the =ConEmu.xml= file:
+1. Open =ConEmu.xml=. Usually it is at  =~\AppData\Roaming=, where =~= is
+   your home directory (=C:\Users\UserName=).
+2. Paste the color scheme at the end of palette settings part. It starts with 
+   the following:
+   #+BEGIN_SRC xml
+        <key name="Colors" modified="2015-03-19 13:53:09" build="150310">
+        	<value name="Count" type="dword" data="00000001"/>
+        	<key name="Palette1" modified="2015-03-19 13:53:09" build="150310">
+   #+END_SRC
 
-  1. Open =ConEmu.xml=. Usually it is at  =~\AppData\Roaming=, where =~= is
-     your home directory (=C:\Users\UserName=).
-  2. Paste the color scheme at the end of palette settings part. It starts with 
-     the following:
-     #+BEGIN_SRC xml
-     <key name="Colors" modified="2015-03-19 13:53:09" build="150310">
-     	<value name="Count" type="dword" data="00000001"/>
-     	<key name="Palette1" modified="2015-03-19 13:53:09" build="150310">
+3. If you do not have any custom color scheme, the xml key is not there. In
+   ConEmu, go to =Settings= -> =Feature= -> =Colors= and generate a custom
+   color theme by click on =Save= button and specify any name. Then =Colors=
+   key will be automatically generated in your =ConEmu.xml=. You can
+   overwrite it when you add new themes.
+
+4. Update the palette number (key name =PaletteX=) accordingly. For example, if you have 1
+   custom color palette already, it should be =Pallete2= for the new one:
+   #+BEGIN_SRC xml
+        <key name="Palette2" modified="2015-03-19 13:53:09" build="150310">
+   #+END_SRC
+
+5. Make sure to increase the value for key name =Count= under key =Colors=
+   as well. It should equal to the total number of pallets you have:
+
+   #+BEGIN_SRC xml
+        <value name="Count" type="dword" data="00000002"/>
+   #+END_SRC
+6. For example, the =Colors= part of your modified =ConEmu.xml= should look like this:
+   #+BEGIN_SRC xml
+        <key name="Colors" modified="2015-03-19 13:53:09" build="150310">
+        	<value name="Count" type="dword" data="00000002"/>
+        	<key name="Palette1" modified="2015-03-19 13:53:09" build="150310">
+        		<value name="Name" type="string" data="EXISTING COLOR"/>
+        		<value name="ExtendColors" type="hex" data="00"/>
+        		...
+        		<value name="ColorTable31" type="dword" data="00e3f6fd"/>
+        	</key>
+        	<key name="Palette2" modified="2015-03-19 13:53:09" build="150310">
+        		<value name="Name" type="string" data="NAME OF THE COLOR YOU ADDED"/>
+        		<value name="ExtendColors" type="hex" data="01"/>
+        		...
+        		<value name="ColorTable31" type="dword" data="00e7fdfd"/>
+        	</key>
+        </key>      
+   #+END_SRC
+** Use =Install-ConEmuTheme.ps1= PowerShell script.
+- Use =Install-ConEmuTheme.ps1= PowerShell script. First, the script will always create
+  a backup of your config file as =ConEmu.backup.xml= prior to doing anything else. It's
+  got two operation modes:
+
+  1. To add a theme to your config file:
+     #+BEGIN_SRC ps1
+          .\Install-ConEmuTheme.ps1 -ConfigPath C:\Users\You\AppData\Roaming\ConEmu.xml -Operation Add -ThemePathOrName ..\oceans16-dark.xml
      #+END_SRC
-
-  3. If you do not have any custom color scheme, the xml key is not there. In
-     ConEmu, go to =Settings= -> =Feature= -> =Colors= and generate a custom
-     color theme by click on =Save= button and specify any name. Then =Colors=
-     key will be automatically generated in your =ConEmu.xml=. You can
-     overwrite it when you add new themes.
-
-  4. Update the palette number (key name =PaletteX=) accordingly. For example, if you have 1
-     custom color palette already, it should be =Pallete2= for the new one:
-     #+BEGIN_SRC xml
-     <key name="Palette2" modified="2015-03-19 13:53:09" build="150310">
-     #+END_SRC
-
-  5. Make sure to increase the value for key name =Count= under key =Colors=
-     as well. It should equal to the total number of pallets you have:
-
-     #+BEGIN_SRC xml
-     <value name="Count" type="dword" data="00000002"/>
-     #+END_SRC
-  6. For example, the =Colors= part of your modified =ConEmu.xml= should look like this:
-     #+BEGIN_SRC xml
-     <key name="Colors" modified="2015-03-19 13:53:09" build="150310">
-     	<value name="Count" type="dword" data="00000002"/>
-     	<key name="Palette1" modified="2015-03-19 13:53:09" build="150310">
-     		<value name="Name" type="string" data="EXISTING COLOR"/>
-     		<value name="ExtendColors" type="hex" data="00"/>
-     		...
-     		<value name="ColorTable31" type="dword" data="00e3f6fd"/>
-     	</key>
-     	<key name="Palette2" modified="2015-03-19 13:53:09" build="150310">
-     		<value name="Name" type="string" data="NAME OF THE COLOR YOU ADDED"/>
-     		<value name="ExtendColors" type="hex" data="01"/>
-     		...
-     		<value name="ColorTable31" type="dword" data="00e7fdfd"/>
-     	</key>
-     </key>      
+  2. To remove a theme from your config file:
+     #+BEGIN_SRC ps1
+          .\Install-ConEmuTheme.ps1 -ConfigPath C:\Users\You\AppData\Roaming\ConEmu.xml -Operation Remove -ThemePathOrName "Oceans16 Dark"
      #+END_SRC
 * Template
 The following is the template for color schemes with the default colors that
@@ -127,5 +139,9 @@ you can use. (It is also in =Default.xml=)
 </key>
 #+END_SRC
 * Changelog
+** February 2017
+- Add =Monokai=
+- Add theme (un)installation script, =tools/Install-ConEmuTheme.ps1= (Thanks
+  to [[https://github.com/GrzegorzKozub][GrzegorzKozub]]).
 ** January 2017
 - Add =bas16-railscasts= (light and dark)
