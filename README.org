@@ -1,4 +1,4 @@
-# Created 2017-02-05 Sun 20:01
+# Created 2017-03-03 Fri 11:17
 #+TITLE: Color Schemes for ConEmu
 #+AUTHOR: Joon Ro
 I port my favorite color schemes to [[https://conemu.github.io/][ConEmu]]. Note that screenshots are taken
@@ -142,6 +142,8 @@ you can use. (It is also in =Default.xml=)
 </key>
 #+END_SRC
 * Changelog
+** March 2017
+- Add default value for =-ConfigPath= argument for =Install-ConEmuTheme.ps1=
 ** February 2017
 - Add =Monokai=
 - Add theme (un)installation script, =tools/Install-ConEmuTheme.ps1= (Thanks
