@@ -9,10 +9,10 @@
           <value name="ColorTable00" type="dword" data="00342c28"/>
           <value name="ColorTable01" type="dword" data="0070635c"/>
           <value name="ColorTable02" type="dword" data="0079c398"/>
-          <value name="ColorTable03" type="dword" data="00c2b656"/>
+          <value name="ColorTable03" type="dword" data="0079c398"/>
           <value name="ColorTable04" type="dword" data="004650be"/>
           <value name="ColorTable05" type="dword" data="00dd78c6"/>
-          <value name="ColorTable06" type="dword" data="005791f9"/>
+          <value name="ColorTable06" type="dword" data="00669ad1"/>
           <value name="ColorTable07" type="dword" data="00bfb2ab"/>
           <value name="ColorTable08" type="dword" data="00697374"/>
           <value name="ColorTable09" type="dword" data="00efaf61"/>
@@ -20,7 +20,7 @@
           <value name="ColorTable11" type="dword" data="00c2b656"/>
           <value name="ColorTable12" type="dword" data="00756ce0"/>
           <value name="ColorTable13" type="dword" data="007a77f2"/>
-          <value name="ColorTable14" type="dword" data="007bc0e5"/>
+          <value name="ColorTable14" type="dword" data="005791f9"/>
           <value name="ColorTable15" type="dword" data="00939fa0"/>
           <value name="ColorTable16" type="dword" data="00000000"/>
           <value name="ColorTable17" type="dword" data="00800000"/>
