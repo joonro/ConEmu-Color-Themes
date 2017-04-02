@@ -25,6 +25,7 @@ For all screenshots, see [[screenshots.org][screenshots]]
 
 - [[https://github.com/zenorocha/dracula-theme][Dracula]] (thanks to [[https://github.com/radmonac][Radmon]])
 - [[https://github.com/cpaulik/emacs-material-theme][material-theme]] (light)
+- [[http://equinsuocha.io/material-theme/#/darker][material-theme]] (darker)
 - [[https://github.com/kuanyui/moe-theme.el][moe-theme]] (light and dark)
 - [[http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/][Monokai]]
 - [[https://github.com/dunovank/oceans16-syntax][Oceans16]] (dark)
