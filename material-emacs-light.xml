@@ -1,5 +1,5 @@
 			    <key name="Palette1" modified="2015-03-19 13:53:09" build="150310">
-					<value name="Name" type="string" data="material-light"/>
+					<value name="Name" type="string" data="Material (Emacs) light"/>
 					<value name="ExtendColors" type="hex" data="01"/>
 					<value name="ExtendColorIdx" type="hex" data="0b"/>
 					<value name="TextColorIdx" type="hex" data="10"/>
