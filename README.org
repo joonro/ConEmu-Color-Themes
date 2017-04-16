@@ -1,4 +1,4 @@
-# Created 2017-04-16 Sun 00:59
+# Created 2017-04-16 Sun 01:04
 #+TITLE: Color Schemes for ConEmu
 #+AUTHOR: Joon Ro
 I port my favorite color schemes to [[https://conemu.github.io/][ConEmu]]. Note that screenshots are taken
@@ -30,7 +30,7 @@ For all screenshots, see [[screenshots.org][screenshots]]
 - [[https://github.com/zenorocha/dracula-theme][Dracula]] (thanks to [[https://github.com/radmonac][Radmon]])
 - [[https://github.com/morhetz/gruvbox][gruvbox]] (dark, thanks to [[https://github.com/circleous][circleous]])
 - [[https://github.com/cpaulik/emacs-material-theme][material-theme (Emacs)]] (light)
-- [[http://equinsuocha.io/material-theme/#/darker][material-theme (Sublime)]] (darker)
+- [[http://equinsuocha.io/material-theme/#/darker][material-theme (Sublime)]] (darker, thanks to [[https://github.com/chantisnake][chantisnake]])
 - [[https://github.com/kuanyui/moe-theme.el][moe-theme]] (light and dark)
 - [[http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/][Monokai]]
 - [[https://github.com/dunovank/oceans16-syntax][Oceans16]] (dark)
@@ -150,8 +150,8 @@ you can use. (It is also in =Default.xml=)
 #+END_SRC
 * Changelog
 ** April 2017
-- Add =material-sublime-darker= theme
-- Add =gruvbox= theme
+- Add =material-sublime-darker= theme (thanks to [[https://github.com/chantisnake][chantisnake]])
+- Add =gruvbox= theme (thanks to [[https://github.com/circleous][circleous]])
 ** March 2017
 - Add =One Dark= theme
 - Add default value for =-ConfigPath= argument for =Install-ConEmuTheme.ps1=
