@@ -1,20 +1,20 @@
-# Created 2017-04-15 Sat 23:54
+# Created 2017-04-16 Sun 00:59
 #+TITLE: Color Schemes for ConEmu
 #+AUTHOR: Joon Ro
 I port my favorite color schemes to [[https://conemu.github.io/][ConEmu]]. Note that screenshots are taken
 with the prompt customized with [[https://github.com/dahlbyk/posh-git][posh-git]] and the =Get-ChildItem= with
 [[https://github.com/joonro/Get-ChildItem-Color][Get-ChildItem-Color]]. See this [[http://joonro.github.io/blog/posts/powershell-customizations.html][blog post]] for my PowerShell customizations.
 
-My current favorites are =material-light= and =Oceans16 Dark=.
+My current favorites are =material-theme (Emacs) light= and =Oceans16 Dark=.
 
 Note that if you want to contribute new colors, make sure all the color options set to =Auto=:
 
 [[file:./img/ConEmu_Color_Options.png]]
 
 * Examples
-- [[https://github.com/cpaulik/emacs-material-theme][material-theme]] (light)
+- [[https://github.com/cpaulik/emacs-material-theme][material-theme (Emacs)]] (light)
 
-  [[file:./img/material-light.png]]
+  [[file:./img/material-emacs-light.png]]
 
 - [[https://github.com/dunovank/oceans16-syntax][Oceans16]] (dark)
 
@@ -29,8 +29,8 @@ For all screenshots, see [[screenshots.org][screenshots]]
 
 - [[https://github.com/zenorocha/dracula-theme][Dracula]] (thanks to [[https://github.com/radmonac][Radmon]])
 - [[https://github.com/morhetz/gruvbox][gruvbox]] (dark, thanks to [[https://github.com/circleous][circleous]])
-- [[https://github.com/cpaulik/emacs-material-theme][material-theme]] (light)
-- [[http://equinsuocha.io/material-theme/#/darker][material-theme]] (darker)
+- [[https://github.com/cpaulik/emacs-material-theme][material-theme (Emacs)]] (light)
+- [[http://equinsuocha.io/material-theme/#/darker][material-theme (Sublime)]] (darker)
 - [[https://github.com/kuanyui/moe-theme.el][moe-theme]] (light and dark)
 - [[http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/][Monokai]]
 - [[https://github.com/dunovank/oceans16-syntax][Oceans16]] (dark)
@@ -150,6 +150,7 @@ you can use. (It is also in =Default.xml=)
 #+END_SRC
 * Changelog
 ** April 2017
+- Add =material-sublime-darker= theme
 - Add =gruvbox= theme
 ** March 2017
 - Add =One Dark= theme
