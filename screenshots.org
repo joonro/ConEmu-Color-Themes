@@ -16,6 +16,10 @@
 
   [[file:./img/dracula.png]]
 
+- [[https://github.com/morhetz/gruvbox][gruvbox]] (dark, thanks to [[https://github.com/circleous][circleous]])
+
+  [[file:img/gruvbox-dark.png]]
+
 - [[https://github.com/cpaulik/emacs-material-theme][material-theme]] (light)
 
   [[file:./img/material-light.png]]
