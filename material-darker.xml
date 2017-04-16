@@ -10,7 +10,7 @@
           <value name="ColorTable01" type="dword" data="004a4a4a"/>
           <value name="ColorTable02" type="dword" data="008de8c3"/>
           <value name="ColorTable03" type="dword" data="008de8c3"/>
-          <value name="ColorTable04" type="dword" data="00b380bb"/>
+          <value name="ColorTable04" type="dword" data="007053ff"/>
           <value name="ColorTable05" type="dword" data="00ea92c7"/>
           <value name="ColorTable06" type="dword" data="006c8cf7"/>
           <value name="ColorTable07" type="dword" data="00ffffee"/>
