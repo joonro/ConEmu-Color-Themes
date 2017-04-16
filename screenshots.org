@@ -1,4 +1,4 @@
-# Created 2017-03-03 Fri 11:52
+# Created 2017-04-16 Sun 00:58
 #+TITLE: Screenshots
 #+AUTHOR: Joon Ro
 - [[https://chriskempson.github.io/base16/][Base16]]
@@ -20,9 +20,13 @@
 
   [[file:img/gruvbox-dark.png]]
 
-- [[https://github.com/cpaulik/emacs-material-theme][material-theme]] (light)
+- [[https://github.com/cpaulik/emacs-material-theme][material-theme (Emacs)]] (light)
 
-  [[file:./img/material-light.png]]
+  [[file:./img/material-emacs-light.png]]
+
+- [[http://equinsuocha.io/material-theme/#/darker][material-theme (Sublime)]] (darker)
+
+  [[file:./img/material-sublime-darker.png]]
 
 - [[https://github.com/kuanyui/moe-theme.el][moe-theme]] (light and dark)
 
