@@ -1,9 +1,9 @@
-# Created 2017-04-16 Sun 01:04
+# Created 2017-04-22 Sat 22:07
 #+TITLE: Color Schemes for ConEmu
 #+AUTHOR: Joon Ro
 I port my favorite color schemes to [[https://conemu.github.io/][ConEmu]]. Note that screenshots are taken
 with the prompt customized with [[https://github.com/dahlbyk/posh-git][posh-git]] and the =Get-ChildItem= with
-[[https://github.com/joonro/Get-ChildItem-Color][Get-ChildItem-Color]]. See this [[http://joonro.github.io/blog/posts/powershell-customizations.html][blog post]] for my PowerShell customizations.
+[[https://github.com/joonro/Get-ChildItemColor][Get-ChildItemColor]]. See this [[http://joonro.github.io/blog/posts/powershell-customizations.html][blog post]] for my PowerShell customizations.
 
 My current favorites are =material-theme (Emacs) light= and =Oceans16 Dark=.
 
