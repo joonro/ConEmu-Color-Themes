@@ -35,18 +35,18 @@ For all screenshots, see [[screenshots.org][screenshots]]
 - [[https://github.com/nashamri/spacemacs-theme][Spacemacs]] (dark)
 * How to Install
 There's two methods.
-** Use =Install-ConEmuTheme.ps1= PowerShell script.
+** Use =Install-ConEmuTheme.ps1= PowerShell script. (Recommended)
 - Use =Install-ConEmuTheme.ps1= PowerShell script. First, the script will always create
   a backup of your config file as =ConEmu.backup.xml= prior to doing anything else. It's
   got two operation modes:
 
   1. To add a theme to your config file:
      #+BEGIN_SRC ps1
-          .\Install-ConEmuTheme.ps1 [-ConfigPath C:\Users\You\AppData\Roaming\ConEmu.xml] -Operation Add -ThemePathOrName ..\oceans16-dark.xml
+          .\Install-ConEmuTheme.ps1 [-ConfigPath Path] -Operation Add -ThemePathOrName themes\oceans16-dark.xml
      #+END_SRC
   2. To remove a theme from your config file:
      #+BEGIN_SRC ps1
-          .\Install-ConEmuTheme.ps1 [-ConfigPath C:\Users\You\AppData\Roaming\ConEmu.xml] -Operation Remove -ThemePathOrName "Oceans16 Dark"
+          .\Install-ConEmuTheme.ps1 [-ConfigPath Path] -Operation Remove -ThemePathOrName "Oceans16 Dark"
      #+END_SRC
 
 - Note that ~-ConfigPath~ argument is optional if your =ConEmu.xml= is located
