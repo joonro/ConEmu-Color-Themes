@@ -1,4 +1,4 @@
-# Created 2017-04-25 Tue 13:19
+# Created 2017-04-25 Tue 13:31
 #+TITLE: Color Schemes for ConEmu
 #+AUTHOR: Joon Ro
 I port my favorite color schemes to [[https://conemu.github.io/][ConEmu]]. Note that screenshots are taken
