@@ -1,4 +1,4 @@
-# Created 2017-04-25 Tue 13:31
+# Created 2017-04-25 Tue 13:36
 #+TITLE: Color Schemes for ConEmu
 #+AUTHOR: Joon Ro
 I port my favorite color schemes to [[https://conemu.github.io/][ConEmu]]. Note that screenshots are taken
@@ -109,6 +109,7 @@ highlighting:
 [[file:./screenshots/ConEmu_Color_Options.png]]
 * Changelog
 ** April 2017
+- Change file structure
 - Add =material-sublime-darker= theme (thanks to [[https://github.com/chantisnake][chantisnake]])
 - Add =gruvbox= theme (thanks to [[https://github.com/circleous][circleous]])
 ** March 2017
