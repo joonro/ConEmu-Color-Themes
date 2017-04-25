@@ -1,57 +1,57 @@
-# Created 2017-04-16 Sun 00:58
+# Created 2017-04-25 Tue 13:19
 #+TITLE: Screenshots
 #+AUTHOR: Joon Ro
 - [[https://chriskempson.github.io/base16/][Base16]]
   - Ocean (dark)
 
-    [[file:./img/base16-ocean-dark.png]]
+    [[file:./screenshots/base16-ocean-dark.png]]
 
   - Railscasts (light and dark)
 
-    [[file:./img/base16-railscasts-light.png]] 
+    [[file:./screenshots/base16-railscasts-light.png]] 
 
-    [[file:./img/base16-railscasts-dark.png]]
+    [[file:./screenshots/base16-railscasts-dark.png]]
 
 - [[https://github.com/zenorocha/dracula-theme][Dracula]] (thanks to [[https://github.com/radmonac][Radmon]])
 
-  [[file:./img/dracula.png]]
+  [[file:./screenshots/dracula.png]]
 
 - [[https://github.com/morhetz/gruvbox][gruvbox]] (dark, thanks to [[https://github.com/circleous][circleous]])
 
-  [[file:img/gruvbox-dark.png]]
+  [[file:./screenshots/grovbox-dark.png]]
 
 - [[https://github.com/cpaulik/emacs-material-theme][material-theme (Emacs)]] (light)
 
-  [[file:./img/material-emacs-light.png]]
+  [[file:./screenshots/material-emacs-light.png]]
 
 - [[http://equinsuocha.io/material-theme/#/darker][material-theme (Sublime)]] (darker)
 
-  [[file:./img/material-sublime-darker.png]]
+  [[file:./screenshots/material-sublime-darker.png]]
 
 - [[https://github.com/kuanyui/moe-theme.el][moe-theme]] (light and dark)
 
-  [[file:./img/moe-light.png]]
+  [[file:./screenshots/moe-light.png]]
 
-  [[file:./img/moe-dark.png]]
+  [[file:./screenshots/moe-dark.png]]
 
 - [[http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/][Monokai]]
 
-  [[file:./img/monokai.png]]
+  [[file:./screenshots/monokai.png]]
 
 - [[https://github.com/dunovank/oceans16-syntax][Oceans16]] (dark)
 
-  [[file:./img/oceans16-dark.png]]
+  [[file:./screenshots/oceans16-dark.png]]
 
 - [[https://github.com/atom/one-dark-syntax][One Dark]]
 
-  [[file:./img/one-dark.png]]
+  [[file:./screenshots/one-dark.png]]
 
 - [[http://ethanschoonover.com/solarized][Solarized]] (light and dark)
 
-  [[file:./img/solarized-light.png]]
+  [[file:./screenshots/solarized-light.png]]
 
-  [[file:./img/solarized-dark.png]]
+  [[file:./screenshots/solarized-dark.png]]
 
 - [[https://github.com/nashamri/spacemacs-theme][Spacemacs]] (dark)
 
-  [[file:./img/spacemacs-dark.png]]
+  [[file:./screenshots/spacemacs-dark.png]]
