@@ -1,4 +1,4 @@
-# Created 2017-04-25 Tue 13:36
+# Created 2017-04-25 Tue 13:42
 #+TITLE: Color Schemes for ConEmu
 #+AUTHOR: Joon Ro
 I port my favorite color schemes to [[https://conemu.github.io/][ConEmu]]. Note that screenshots are taken
@@ -98,7 +98,7 @@ There's two methods.
         	</key>
         </key>      
    #+END_SRC
-* Contribution
+* How to Contribute
 See [[Template.xml]] for the template for color schemes with the default colors.
 In general, programs (such as =git=) uses colors through 0 - 8, (see the
 template for their uses).
