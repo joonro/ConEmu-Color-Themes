@@ -1,0 +1,41 @@
+        <key name="Palette1" modified="2015-04-05 12:51:32" build="150305">
+          <value name="Name" type="string" data="Tango Dark"/>
+          <value name="ExtendColors" type="hex" data="00"/>
+          <value name="ExtendColorIdx" type="hex" data="10"/>
+          <value name="TextColorIdx" type="hex" data="10"/>
+          <value name="BackColorIdx" type="hex" data="10"/>
+          <value name="PopTextColorIdx" type="hex" data="10"/>
+          <value name="PopBackColorIdx" type="hex" data="10"/>
+          <value name="ColorTable00" type="dword" data="00000000"/>  <!-- Black (Background) -->
+          <value name="ColorTable01" type="dword" data="00a46534"/>  <!-- DarkBlue (IPython Module Name) -->
+          <value name="ColorTable02" type="dword" data="00069a4e"/>  <!-- DarkGreen (Git diff add) -->
+          <value name="ColorTable03" type="dword" data="009a9806"/>  <!-- DarkCyan (String, Comments) -->
+          <value name="ColorTable04" type="dword" data="000000cc"/>  <!-- DarkRed (Git diff remove) -->
+          <value name="ColorTable05" type="dword" data="007b5075"/>  <!-- DarkMagenta -->
+          <value name="ColorTable06" type="dword" data="0000a0c4"/>  <!-- DarkYellow -->
+          <value name="ColorTable07" type="dword" data="00cfd7d3"/>  <!-- Gray (Default Text) -->
+          <value name="ColorTable08" type="dword" data="00535755"/>  <!-- DarkGray (Parameters) -->
+          <value name="ColorTable09" type="dword" data="00cf9f72"/>  <!-- Blue -->
+          <value name="ColorTable10" type="dword" data="0034e28a"/>  <!-- Green -->
+          <value name="ColorTable11" type="dword" data="00e2e234"/>  <!-- Cyan -->
+          <value name="ColorTable12" type="dword" data="002929ef"/>  <!-- Red -->
+          <value name="ColorTable13" type="dword" data="00a87fad"/>  <!-- Magenta -->
+          <value name="ColorTable14" type="dword" data="004fe9fc"/>  <!-- Yellow -->
+          <value name="ColorTable15" type="dword" data="00eceeee"/>  <!-- White (Number, Git diff text) -->
+          <value name="ColorTable16" type="dword" data="00000000"/>
+          <value name="ColorTable17" type="dword" data="00800000"/>
+          <value name="ColorTable18" type="dword" data="00008000"/>
+          <value name="ColorTable19" type="dword" data="00808000"/>
+          <value name="ColorTable20" type="dword" data="00000080"/>
+          <value name="ColorTable21" type="dword" data="00800080"/>
+          <value name="ColorTable22" type="dword" data="00008080"/>
+          <value name="ColorTable23" type="dword" data="00c0c0c0"/>
+          <value name="ColorTable24" type="dword" data="00808080"/>
+          <value name="ColorTable25" type="dword" data="00ff0000"/>
+          <value name="ColorTable26" type="dword" data="0000ff00"/>
+          <value name="ColorTable27" type="dword" data="00ffff00"/>
+          <value name="ColorTable28" type="dword" data="000000ff"/>
+          <value name="ColorTable29" type="dword" data="00ff00ff"/>
+          <value name="ColorTable30" type="dword" data="0000ffff"/>
+          <value name="ColorTable31" type="dword" data="00ffffff"/>
+        </key>
