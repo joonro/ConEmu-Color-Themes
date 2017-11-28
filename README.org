@@ -44,11 +44,12 @@ There's two methods.
      #+BEGIN_SRC ps1
           .\Install-ConEmuTheme.ps1 [-ConfigPath Path] -Operation Add -ThemePathOrName themes\oceans16-dark.xml
      #+END_SRC
+     If a folder is specified instead of a theme file (e.g. =-ThemePathOrName themes=), then all the theme files under it are imported.
   2. To remove a theme from your config file:
      #+BEGIN_SRC ps1
           .\Install-ConEmuTheme.ps1 [-ConfigPath Path] -Operation Remove -ThemePathOrName "Oceans16 Dark"
      #+END_SRC
-
+     If a theme file is specified instead of a theme name (e.g. =-ThemePathOrName themes\oceans16-dark.xml=), then the theme from the theme file is removed from the config. This allows you to remove a theme without having to look up its exact name.
 - Note that ~-ConfigPath~ argument is optional if your =ConEmu.xml= is located
   at the default location (=C:\Users\You\AppData\Roaming\ConEmu.xml=).
 ** Manually add color schemes and modify the =ConEmu.xml= file:
