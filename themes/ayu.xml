@@ -1,0 +1,41 @@
+        <key name="Palette1" modified="2018-08-07 12:51:32" build="150305">
+          <value name="Name" type="string" data="ayu Light"/>
+          <value name="ExtendColors" type="hex" data="00"/>
+          <value name="ExtendColorIdx" type="hex" data="10"/>
+          <value name="TextColorIdx" type="hex" data="10"/>
+          <value name="BackColorIdx" type="hex" data="10"/>
+          <value name="PopTextColorIdx" type="hex" data="10"/>
+          <value name="PopBackColorIdx" type="hex" data="10"/>
+          <value name="ColorTable00" type="dword" data="00fafafa"/>  <!-- Black (Background) -->
+          <value name="ColorTable01" type="dword" data="006c6761"/>  <!-- DarkBlue (Module names in Jupyter) -->
+          <value name="ColorTable02" type="dword" data="0099bf4c"/>  <!-- DarkGreen (Diff add in Git, Commments in Posh, built-ins in Jupyter) -->
+          <value name="ColorTable03" type="dword" data="0000b386"/>  <!-- DarkCyan (String in Posh, Comments in Jupyter) -->
+          <value name="ColorTable04" type="dword" data="001818f5"/>  <!-- DarkRed (Diff remove in Git) -->
+          <value name="ColorTable05" type="dword" data="007171f0"/>  <!-- DarkMagenta (Setup questions in Sphinx) -->
+          <value name="ColorTable06" type="dword" data="00f29718"/>  <!-- DarkYellow -->
+          <value name="ColorTable07" type="dword" data="006c6761"/>  <!-- Gray (Default Text) -->
+          <value name="ColorTable08" type="dword" data="00326efa"/>  <!-- DarkGray (Parameters) -->
+          <value name="ColorTable09" type="dword" data="00e69e39"/>  <!-- Blue -->
+          <value name="ColorTable10" type="dword" data="0000b386"/>  <!-- Green -->
+          <value name="ColorTable11" type="dword" data="00d4b455"/>  <!-- Cyan -->
+          <value name="ColorTable12" type="dword" data="001818f5"/>  <!-- Red -->
+          <value name="ColorTable13" type="dword" data="00cc7aa3"/>  <!-- Magenta -->
+          <value name="ColorTable14" type="dword" data="00408fff"/>  <!-- Yellow (Exception in IPython) -->
+          <value name="ColorTable15" type="dword" data="00cc7aa3"/>  <!-- White (Number, Git diff text) -->
+          <value name="ColorTable16" type="dword" data="00000000"/>
+          <value name="ColorTable17" type="dword" data="00800000"/>
+          <value name="ColorTable18" type="dword" data="00008000"/>
+          <value name="ColorTable19" type="dword" data="00808000"/>
+          <value name="ColorTable20" type="dword" data="00000080"/>
+          <value name="ColorTable21" type="dword" data="00800080"/>
+          <value name="ColorTable22" type="dword" data="00008080"/>
+          <value name="ColorTable23" type="dword" data="00c0c0c0"/>
+          <value name="ColorTable24" type="dword" data="00808080"/>
+          <value name="ColorTable25" type="dword" data="00ff0000"/>
+          <value name="ColorTable26" type="dword" data="0000ff00"/>
+          <value name="ColorTable27" type="dword" data="00ffff00"/>
+          <value name="ColorTable28" type="dword" data="000000ff"/>
+          <value name="ColorTable29" type="dword" data="00ff00ff"/>
+          <value name="ColorTable30" type="dword" data="0000ffff"/>
+          <value name="ColorTable31" type="dword" data="00ffffff"/>
+        </key>
