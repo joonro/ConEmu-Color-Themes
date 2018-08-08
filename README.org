@@ -1,12 +1,11 @@
-# Created 2017-04-25 Tue 13:42
+# Created 2018-06-16 Sat 22:53
 #+TITLE: Color Schemes for ConEmu
 #+AUTHOR: Joon Ro
 I port my favorite color schemes to [[https://conemu.github.io/][ConEmu]]. Note that screenshots are taken
 with the prompt customized with [[https://github.com/dahlbyk/posh-git][posh-git]] and the =Get-ChildItem= with
 [[https://github.com/joonro/Get-ChildItemColor][Get-ChildItemColor]]. See this [[http://joonro.github.io/blog/posts/powershell-customizations.html][blog post]] for my PowerShell customizations.
 
-My current favorites are =material-theme (Emacs) light= and =Oceans16 Dark=.
-
+My current favorites are =material-theme (Emacs) light= and =One Dark=.
 * Examples
 - [[https://github.com/cpaulik/emacs-material-theme][material-theme (Emacs)]] (light)
 
@@ -30,11 +29,11 @@ For all screenshots, see [[screenshots.org][screenshots]]
 - [[https://github.com/kuanyui/moe-theme.el][moe-theme]] (light and dark)
 - [[http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/][Monokai]]
 - [[https://github.com/dunovank/oceans16-syntax][Oceans16]] (dark)
-- [[https://github.com/atom/one-dark-syntax][One Dark]]
+- [[https://github.com/atom/one-dark-syntax][One Dark]] and [[https://github.com/atom/one-light-syntax/][One Light]] (light theme contributed by [[https://github.com/ConnorGriffin][Connor Griffin]])
 - [[http://ethanschoonover.com/solarized][Solarized]] (light and dark)
 - [[https://github.com/nashamri/spacemacs-theme][Spacemacs]] (dark)
 * How to Install
-There's two methods.
+There are two methods.
 ** Use =Install-ConEmuTheme.ps1= PowerShell script. (Recommended)
 - Use =Install-ConEmuTheme.ps1= PowerShell script. First, the script will always create
   a backup of your config file as =ConEmu.backup.xml= prior to doing anything else. It's
@@ -44,12 +43,11 @@ There's two methods.
      #+BEGIN_SRC ps1
           .\Install-ConEmuTheme.ps1 [-ConfigPath Path] -Operation Add -ThemePathOrName themes\oceans16-dark.xml
      #+END_SRC
-     If a folder is specified instead of a theme file (e.g. =-ThemePathOrName themes=), then all the theme files under it are imported.
   2. To remove a theme from your config file:
      #+BEGIN_SRC ps1
           .\Install-ConEmuTheme.ps1 [-ConfigPath Path] -Operation Remove -ThemePathOrName "Oceans16 Dark"
      #+END_SRC
-     If a theme file is specified instead of a theme name (e.g. =-ThemePathOrName themes\oceans16-dark.xml=), then the theme from the theme file is removed from the config. This allows you to remove a theme without having to look up its exact name.
+
 - Note that ~-ConfigPath~ argument is optional if your =ConEmu.xml= is located
   at the default location (=C:\Users\You\AppData\Roaming\ConEmu.xml=).
 ** Manually add color schemes and modify the =ConEmu.xml= file:

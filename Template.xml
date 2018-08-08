@@ -7,9 +7,9 @@
           <value name="PopTextColorIdx" type="hex" data="10"/>
           <value name="PopBackColorIdx" type="hex" data="10"/>
           <value name="ColorTable00" type="dword" data="00000000"/>  <!-- Black (Background) -->
-          <value name="ColorTable01" type="dword" data="00000080"/>  <!-- DarkBlue (Module names in IPython ) -->
-          <value name="ColorTable02" type="dword" data="00008000"/>  <!-- DarkGreen (Diff add in Git, built-ins in IPython) -->
-          <value name="ColorTable03" type="dword" data="00008080"/>  <!-- DarkCyan (String, Comments) -->
+          <value name="ColorTable01" type="dword" data="00000080"/>  <!-- DarkBlue (Module names in Jupyter) -->
+          <value name="ColorTable02" type="dword" data="00008000"/>  <!-- DarkGreen (Diff add in Git, Commments in Posh, built-ins in Jupyter) -->
+          <value name="ColorTable03" type="dword" data="00008080"/>  <!-- DarkCyan (String in Posh, Comments in Jupyter) -->
           <value name="ColorTable04" type="dword" data="00800000"/>  <!-- DarkRed (Diff remove in Git) -->
           <value name="ColorTable05" type="dword" data="00800080"/>  <!-- DarkMagenta (Setup questions in Sphinx) -->
           <value name="ColorTable06" type="dword" data="00808000"/>  <!-- DarkYellow -->
