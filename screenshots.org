@@ -1,6 +1,14 @@
-# Created 2017-04-25 Tue 13:39
+# Created 2018-08-08 Wed 17:15
 #+TITLE: Screenshots
 #+AUTHOR: Joon Ro
+- [[https://github.com/ayu-theme/ayu-colors][ayu]] (Light, Mirage, & Dark)
+
+  [[file:./screenshots/ayu-light.png]] 
+
+  [[file:./screenshots/ayu-mirage.png]] 
+
+  [[file:./screenshots/ayu-dark.png]]
+
 - [[https://chriskempson.github.io/base16/][Base16]]
   - Ocean (dark)
 
