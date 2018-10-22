@@ -1,4 +1,4 @@
-# Created 2018-08-08 Wed 17:15
+# Created 2018-10-22 Mon 12:35
 #+TITLE: Color Schemes for ConEmu
 #+AUTHOR: Joon Ro
 I port my favorite color schemes to [[https://conemu.github.io/][ConEmu]]. Note that screenshots are taken
@@ -91,13 +91,11 @@ There are two methods.
         	<value name="Count" type="dword" data="00000002"/>
         	<key name="Palette1" modified="2015-03-19 13:53:09" build="150310">
         		<value name="Name" type="string" data="EXISTING COLOR"/>
-        		<value name="ExtendColors" type="hex" data="00"/>
         		...
         		<value name="ColorTable31" type="dword" data="00e3f6fd"/>
         	</key>
         	<key name="Palette2" modified="2015-03-19 13:53:09" build="150310">
         		<value name="Name" type="string" data="NAME OF THE COLOR YOU ADDED"/>
-        		<value name="ExtendColors" type="hex" data="01"/>
         		...
         		<value name="ColorTable31" type="dword" data="00e7fdfd"/>
         	</key>
