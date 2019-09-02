@@ -23,6 +23,7 @@ For all screenshots, see [[screenshots.org][screenshots]]
   - Ocean (dark)
   - Railscasts (light and dark)
 
+- [[https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/schemes/Chalk.itermcolors][Chalk]] (thanks to [[https://github.com/cobertos][Cobertos]])
 - [[https://github.com/zenorocha/dracula-theme][Dracula]] (thanks to [[https://github.com/radmonac][Radmon]])
 - [[https://github.com/morhetz/gruvbox][gruvbox]] (dark, thanks to [[https://github.com/circleous][circleous]])
 - [[https://github.com/cpaulik/emacs-material-theme][material-theme (Emacs)]] (light)
