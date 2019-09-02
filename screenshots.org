@@ -20,6 +20,10 @@
 
     [[file:./screenshots/base16-railscasts-dark.png]]
 
+- [[https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/schemes/Chalk.itermcolors][Chalk]] (thanks to [[https://github.com/cobertos][Cobertos]])
+
+  [[file:./screenshots/chalk.png]]
+
 - [[https://github.com/zenorocha/dracula-theme][Dracula]] (thanks to [[https://github.com/radmonac][Radmon]])
 
   [[file:./screenshots/dracula.png]]
