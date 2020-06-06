@@ -1,0 +1,23 @@
+        <key name="Palette1" modified="2018-06-14 14:56:16" build="180206">
+          <value name="Name" type="string" data="One Light"/>
+          <value name="TextColorIdx" type="hex" data="10"/>
+          <value name="BackColorIdx" type="hex" data="10"/>
+          <value name="PopTextColorIdx" type="hex" data="10"/>
+          <value name="PopBackColorIdx" type="hex" data="10"/>
+          <value name="ColorTable00" type="dword" data="00fafafa"/>  <!-- Black (Background) -->
+          <value name="ColorTable01" type="dword" data="00423a38"/>  <!-- DarkBlue (Module names in Jupyter) -->
+          <value name="ColorTable02" type="dword" data="004fa150"/>  <!-- DarkGreen (Diff add in Git, Commments in Posh, built-ins in Jupyter) -->
+          <value name="ColorTable03" type="dword" data="004fa150"/>  <!-- DarkCyan (String in Posh, Comments in Jupyter) -->
+          <value name="ColorTable04" type="dword" data="004312ca"/>  <!-- DarkRed (Diff remove in Git) -->
+          <value name="ColorTable05" type="dword" data="00a426a6"/>  <!-- DarkMagenta (Setup questions in Sphinx) -->
+          <value name="ColorTable06" type="dword" data="00016898"/>  <!-- DarkYellow -->
+          <value name="ColorTable07" type="dword" data="00423a38"/>  <!-- Gray (Default Text) -->
+          <value name="ColorTable08" type="dword" data="00a7a1a0"/>  <!-- DarkGray (Parameters) -->
+          <value name="ColorTable09" type="dword" data="00f27840"/>  <!-- Blue -->
+          <value name="ColorTable10" type="dword" data="004fa150"/>  <!-- Green -->
+          <value name="ColorTable11" type="dword" data="00bc8401"/>  <!-- Cyan -->
+          <value name="ColorTable12" type="dword" data="004956e4"/>  <!-- Red -->
+          <value name="ColorTable13" type="dword" data="00a426a6"/>  <!-- Magenta -->
+          <value name="ColorTable14" type="dword" data="00016898"/>  <!-- Yellow (Exception in IPython) -->
+          <value name="ColorTable15" type="dword" data="00016898"/>  <!-- White (Number, Git diff text) -->
+      </key>
