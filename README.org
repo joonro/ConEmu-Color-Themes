@@ -53,7 +53,7 @@ There are two methods.
   at the default location (=C:\Users\You\AppData\Roaming\ConEmu.xml=).
 - To add all the themes included in this repo, run the following in a powershell prompt:
      #+BEGIN_SRC ps1
-          @(Get-ChildItem -Recurse -Filter *.xml ) | %{.\Install-ConEmuTheme.ps1 -Operation Add -ThemePathOrName $_}
+          @(Get-ChildItem -Recurse -Filter *.xml ) | %{.\Install-ConEmuTheme.ps1 -Operation Add -ThemePathOrName $_.FullName}
      #+END_SRC
 
 ** Manually add color schemes and modify the =ConEmu.xml= file:
