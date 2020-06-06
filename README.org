@@ -45,6 +45,7 @@ For all screenshots, see [[screenshots.org][screenshots]]
 - [[screenshots.org#moe-theme][moe-theme]] (light & dark)
 - [[screenshots.org#monokai][Monokai]]
 - [[oceans16-dark][Oceans16]] (dark)
+- [[screenshots.org#rusty][Rusty]]
 - [[screenshots.org#solarized][Solarized]] (light and dark)
 - [[screenshots.org#spacemacs-dark][Spacemacs]] (dark)
 - [[screenshots.org#tango][Tango]] (dark)
