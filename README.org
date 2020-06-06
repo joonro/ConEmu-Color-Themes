@@ -39,7 +39,8 @@ For all screenshots, see [[screenshots.org][screenshots]]
 - Material
   - [[screenshots.org#material-theme-emacs-light][material-theme (Emacs)]] (light)
   - [[screenshots.org#material-theme-sublime-darker][material-theme (Sublime)]] (darker)
- 
+
+- [[screenshots.org#materialshell][Materialshell]] (Dark & Oceanic)
 - [[screenshots.org#moe-theme][moe-theme]] (light & dark)
 - [[screenshots.org#monokai][Monokai]]
 - [[oceans16-dark][Oceans16]] (dark)

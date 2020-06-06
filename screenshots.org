@@ -43,7 +43,12 @@
 - Contributor: [[https://github.com/chantisnake][chantisnake]]
 
 [[file:./screenshots/material-sublime-darker.png]]
-
+* [[https://materialshell.carloscuesta.me/][Materialshell]]
+- Contributor: [[https://github.com/Liinkiing][Liinkiing]]
+** Dark
+[[file:./screenshots/materialshell-dark.png]]
+** Oceanic
+[[file:./screenshots/materialshell-ocean.png]]
 * [[https://github.com/kuanyui/moe-theme.el][moe-theme]] 
 ** moe-light
 [[file:./screenshots/moe-light.png]]
