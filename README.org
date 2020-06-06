@@ -1,9 +1,19 @@
 # Created 2018-10-22 Mon 12:35
 #+TITLE: Color Schemes for ConEmu
 #+AUTHOR: Joon Ro
-I port my favorite color schemes to [[https://conemu.github.io/][ConEmu]]. Note that screenshots are taken
-with the prompt customized with [[https://github.com/dahlbyk/posh-git][posh-git]] and the =Get-ChildItem= with
-[[https://github.com/joonro/Get-ChildItemColor][Get-ChildItemColor]]. See this [[http://joonro.github.io/blog/posts/powershell-customizations.html][blog post]] for my PowerShell customizations.
+This repo originally started as a place to share my favorite color schemes
+that I ported from various sources to [[https://conemu.github.io/][ConEmu]]. Virtually all the recently added
+themes and improvements are from various contributors (thanks a lot!).
+
+I started porting color schemes manually because I found that automatically
+ported color schemes generally do not look good, because in many cases two
+programs have inconsistencies in items for color schemes. So, I try to
+manually choose colors to get color schemes as consistent as possible to the
+original.
+
+Note that most of the [[screenshots.org][screenshots]] shown here are taken with the prompt
+customized with [[https://github.com/dahlbyk/posh-git][posh-git]] and the =Get-ChildItem= with [[https://github.com/joonro/Get-ChildItemColor][Get-ChildItemColor]]. See
+this [[http://joonro.github.io/blog/posts/powershell-customizations.html][blog post]] for my PowerShell customizations.
 
 My current favorites are =material-theme (Emacs) light= and =One Dark=.
 * Examples
@@ -35,26 +45,25 @@ For all screenshots, see [[screenshots.org][screenshots]]
 - [[http://ethanschoonover.com/solarized][Solarized]] (light and dark)
 - [[https://github.com/nashamri/spacemacs-theme][Spacemacs]] (dark)
 * How to Install
-There are two methods.
-** Use =Install-ConEmuTheme.ps1= PowerShell script. (Recommended)
+** Use =Install-ConEmuTheme.ps1= PowerShell script.
 - Use =Install-ConEmuTheme.ps1= PowerShell script. First, the script will always create
   a backup of your config file as =ConEmu.backup.xml= prior to doing anything else. It's
   got two operation modes:
 
   1. To add a theme to your config file:
      #+BEGIN_SRC ps1
-          .\Install-ConEmuTheme.ps1 [-ConfigPath Path] -Operation Add -ThemePathOrName themes\oceans16-dark.xml
+     .\Install-ConEmuTheme.ps1 [-ConfigPath Path] -Operation Add -ThemePathOrName themes\oceans16-dark.xml
      #+END_SRC
   2. To remove a theme from your config file:
      #+BEGIN_SRC ps1
-          .\Install-ConEmuTheme.ps1 [-ConfigPath Path] -Operation Remove -ThemePathOrName "Oceans16 Dark"
+     .\Install-ConEmuTheme.ps1 [-ConfigPath Path] -Operation Remove -ThemePathOrName "Oceans16 Dark"
      #+END_SRC
 
 - Note that ~-ConfigPath~ argument is optional if your =ConEmu.xml= is located
   at the default location (=C:\Users\You\AppData\Roaming\ConEmu.xml=).
 - To add all the themes included in this repo, run the following in a powershell prompt:
      #+BEGIN_SRC ps1
-          @(Get-ChildItem -Recurse -Filter *.xml ) | %{.\Install-ConEmuTheme.ps1 -Operation Add -ThemePathOrName $_.FullName}
+     @(Get-ChildItem -Recurse -Filter *.xml ) | %{.\Install-ConEmuTheme.ps1 -Operation Add -ThemePathOrName $_.FullName}
      #+END_SRC
 
 ** Manually add color schemes and modify the =ConEmu.xml= file:
@@ -114,6 +123,11 @@ highlighting:
 
 [[file:./screenshots/ConEmu_Color_Options.png]]
 * Changelog
+** June 2020
+- Add [[https://github.com/achalv/chalk][Chalk]] theme (thanks to [[https://github.com/cobertos][Cobertos]])
+- Use full theme path when installing all themes (#32)
+- Swap ayu-dark and ayu-mirage screenshots (#29)
+- Make some colors in ayu-light consistent to the original
 ** August 2018
 - Add =ayu= theme
 ** April 2017
