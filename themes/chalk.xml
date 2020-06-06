@@ -1,0 +1,23 @@
+     <key name="Palette1" modified="2019-09-01 20:07:12" build="190714">
+          <value name="Name" type="string" data="Chalk"/>
+          <value name="TextColorIdx" type="hex" data="10"/>
+          <value name="BackColorIdx" type="hex" data="10"/>
+          <value name="PopTextColorIdx" type="hex" data="10"/>
+          <value name="PopBackColorIdx" type="hex" data="10"/>
+          <value name="ColorTable00" type="dword" data="002e2c2b"/> <!-- Black (Background) -->
+          <value name="ColorTable01" type="dword" data="00ac7f2a"/> <!-- DarkBlue (Module names in Jupyter) -->
+          <value name="ColorTable02" type="dword" data="00699a78"/> <!-- DarkGreen (Diff add in Git, Commments in Posh, built-ins in Jupyter) -->
+          <value name="ColorTable03" type="dword" data="0099a744"/> <!-- DarkCyan (String in Posh, Comments in Jupyter) -->
+          <value name="ColorTable04" type="dword" data="00513ab2"/> <!-- DarkRed (Diff remove in Git) -->
+          <value name="ColorTable05" type="dword" data="005a4fbc"/> <!-- DarkMagenta (Setup questions in Sphinx) -->
+          <value name="ColorTable06" type="dword" data="004aabb9"/> <!-- DarkYellow -->
+          <value name="ColorTable07" type="dword" data="00d9d8d2"/> <!-- Gray (Default Text) -->
+          <value name="ColorTable08" type="dword" data="00888888"/> <!-- DarkGray (Parameters) -->
+          <value name="ColorTable09" type="dword" data="00ff9540"/> <!-- Blue -->
+          <value name="ColorTable10" type="dword" data="006fc480"/> <!-- Green -->
+          <value name="ColorTable11" type="dword" data="00bdcc52"/> <!-- Cyan -->
+          <value name="ColorTable12" type="dword" data="004048f2"/> <!-- Red -->
+          <value name="ColorTable13" type="dword" data="007551fb"/> <!-- Magenta -->
+          <value name="ColorTable14" type="dword" data="0062ebff"/> <!-- Yellow (Exception in IPython) -->
+          <value name="ColorTable15" type="dword" data="00d9d8d2"/> <!-- White (Number, Git diff text) -->
+     </key>
