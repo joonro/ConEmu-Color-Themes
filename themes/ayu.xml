@@ -8,12 +8,12 @@
           <value name="PopBackColorIdx" type="hex" data="10"/>
           <value name="ColorTable00" type="dword" data="00fafafa"/>  <!-- Black (Background) -->
           <value name="ColorTable01" type="dword" data="006c6761"/>  <!-- DarkBlue (Module names in Jupyter) -->
-          <value name="ColorTable02" type="dword" data="0099bf4c"/>  <!-- DarkGreen (Diff add in Git, Commments in Posh, built-ins in Jupyter) -->
+          <value name="ColorTable02" type="dword" data="004dbf99"/>  <!-- DarkGreen (Diff add in Git, Commments in Posh, built-ins in Jupyter) -->
           <value name="ColorTable03" type="dword" data="0000b386"/>  <!-- DarkCyan (String in Posh, Comments in Jupyter) -->
-          <value name="ColorTable04" type="dword" data="001818f5"/>  <!-- DarkRed (Diff remove in Git) -->
+          <value name="ColorTable04" type="dword" data="008379f2"/>  <!-- DarkRed (Diff remove in Git) -->
           <value name="ColorTable05" type="dword" data="007171f0"/>  <!-- DarkMagenta (Setup questions in Sphinx) -->
-          <value name="ColorTable06" type="dword" data="00f29718"/>  <!-- DarkYellow -->
-          <value name="ColorTable07" type="dword" data="006c6761"/>  <!-- Gray (Default Text) -->
+          <value name="ColorTable06" type="dword" data="001897f2"/>  <!-- DarkYellow -->
+          <value name="ColorTable07" type="dword" data="0080766c"/>  <!-- Gray (Default Text) -->
           <value name="ColorTable08" type="dword" data="00326efa"/>  <!-- DarkGray (Parameters) -->
           <value name="ColorTable09" type="dword" data="00e69e39"/>  <!-- Blue -->
           <value name="ColorTable10" type="dword" data="0000b386"/>  <!-- Green -->
