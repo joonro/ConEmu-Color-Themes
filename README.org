@@ -44,7 +44,7 @@ For all screenshots, see [[screenshots.org][screenshots]]
 - [[screenshots.org#materialshell][Materialshell]] (Dark & Oceanic)
 - [[screenshots.org#moe-theme][moe-theme]] (light & dark)
 - [[screenshots.org#monokai][Monokai]]
-- [[oceans16-dark][Oceans16]] (dark)
+- [[screenshots.org#oceans16-dark][Oceans16]] (dark)
 - [[screenshots.org#rusty][Rusty]]
 - [[screenshots.org#solarized][Solarized]] (light and dark)
 - [[screenshots.org#spacemacs-dark][Spacemacs]] (dark)
@@ -131,6 +131,11 @@ highlighting:
 [[file:./screenshots/ConEmu_Color_Options.png]]
 * Changelog
 ** June 2020
+*** 1
+- Add missing contributor information and screenshots for [[screenshots.org#rusty][Rusty]], [[screenshots.org#tango][Tango]] (dark),
+  and [[screenshots.org#xfce4-terminal][xfce4-terminal]] (white on black)
+- Re-organize & cleanup the theme list and screenshots
+*** 0
 - Add [[https://github.com/achalv/chalk][Chalk]] theme (thanks to [[https://github.com/cobertos][Cobertos]])
 - Use full theme path when installing all themes (#32)
 - Swap ayu-dark and ayu-mirage screenshots (#29)
