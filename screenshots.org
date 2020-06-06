@@ -2,6 +2,14 @@
 #+TITLE: Screenshots
 #+AUTHOR: Joon Ro
 
+* Atom One
+** [[https://github.com/atom/atom/tree/master/packages/one-light-syntax][Atom One light]]
+- Contributor: [[https://github.com/ConnorGriffin][Connor Griffin]]
+
+[[file:./screenshots/atom-one-light.png]]
+
+** [[https://github.com/atom/atom/tree/master/packages/one-dark-syntax][Atom One dark]]
+[[file:./screenshots/atom-one-dark.png]]
 * [[https://github.com/ayu-theme/ayu-colors][ayu]]
 ** Light
   [[file:./screenshots/ayu-light.png]] 
@@ -62,15 +70,6 @@
 
 * [[https://github.com/dunovank/oceans16-syntax][Oceans16]] (dark)
 [[file:./screenshots/oceans16-dark.png]]
-
-* Atom One
-** [[https://github.com/atom/atom/tree/master/packages/one-light-syntax][Atom One light]]
-- Contributor: [[https://github.com/ConnorGriffin][Connor Griffin]]
-
-[[file:./screenshots/one-dark.png]]
-
-** [[https://github.com/atom/atom/tree/master/packages/one-dark-syntax][Atom One dark]]
-[[file:./screenshots/one-dark.png]]
 
 * [[http://ethanschoonover.com/solarized][Solarized]] 
 ** Light
