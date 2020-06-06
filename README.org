@@ -47,6 +47,8 @@ For all screenshots, see [[screenshots.org][screenshots]]
 - [[oceans16-dark][Oceans16]] (dark)
 - [[screenshots.org#solarized][Solarized]] (light and dark)
 - [[screenshots.org#spacemacs-dark][Spacemacs]] (dark)
+- [[screenshots.org#tango][Tango]] (dark)
+
 * How to Install
 ** Use =Install-ConEmuTheme.ps1= PowerShell script.
 - Use =Install-ConEmuTheme.ps1= PowerShell script. First, the script will always create

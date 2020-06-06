@@ -79,3 +79,8 @@
 
 * [[https://github.com/nashamri/spacemacs-theme][Spacemacs]] (dark)
 [[file:./screenshots/spacemacs-dark.png]]
+* [[https://iterm2colorschemes.com/][Tango]]
+** dark
+- Contributor: [[https://github.com/rkitover][rkitover]] 
+
+[[file:./screenshots/tango-dark.png]]
