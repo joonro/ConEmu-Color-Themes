@@ -64,12 +64,12 @@
 [[file:./screenshots/oceans16-dark.png]]
 
 * Atom One
-** [[https://github.com/atom/one-light-syntax/][Atom One light]]
+** [[https://github.com/atom/atom/tree/master/packages/one-light-syntax][Atom One light]]
 - Contributor: [[https://github.com/ConnorGriffin][Connor Griffin]]
 
 [[file:./screenshots/one-dark.png]]
 
-** [[https://github.com/atom/one-dark-syntax][Atom One dark]]
+** [[https://github.com/atom/atom/tree/master/packages/one-dark-syntax][Atom One dark]]
 [[file:./screenshots/one-dark.png]]
 
 * [[http://ethanschoonover.com/solarized][Solarized]] 
