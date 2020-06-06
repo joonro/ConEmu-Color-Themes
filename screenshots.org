@@ -1,69 +1,77 @@
 # Created 2018-08-08 Wed 17:15
 #+TITLE: Screenshots
 #+AUTHOR: Joon Ro
-- [[https://github.com/ayu-theme/ayu-colors][ayu]] (Light, Mirage, & Dark)
 
+* [[https://github.com/ayu-theme/ayu-colors][ayu]]
+** Light
   [[file:./screenshots/ayu-light.png]] 
-
+** Mirage
   [[file:./screenshots/ayu-mirage.png]] 
-
+** Dark
   [[file:./screenshots/ayu-dark.png]]
-
-- [[https://chriskempson.github.io/base16/][Base16]]
-  - Ocean (dark)
-
+* [[https://chriskempson.github.io/base16/][Base16]]
+** Ocean (dark)
     [[file:./screenshots/base16-ocean-dark.png]]
 
-  - Railscasts (light and dark)
-
+** Railscasts (light and dark)
     [[file:./screenshots/base16-railscasts-light.png]] 
 
     [[file:./screenshots/base16-railscasts-dark.png]]
 
-- [[https://github.com/achalv/chalk][Chalk]] (thanks to [[https://github.com/cobertos][Cobertos]])
+* [[https://github.com/achalv/chalk][Chalk]]
+- Contributor: [[https://github.com/cobertos][Cobertos]]
 
-  [[file:./screenshots/chalk.png]]
+[[file:./screenshots/chalk.png]]
 
-- [[https://github.com/zenorocha/dracula-theme][Dracula]] (thanks to [[https://github.com/radmonac][Radmon]])
+* [[https://github.com/zenorocha/dracula-theme][Dracula]]
+- Contributor: [[https://github.com/radmonac][Radmon]]
 
-  [[file:./screenshots/dracula.png]]
+[[file:./screenshots/dracula.png]]
 
-- [[https://github.com/morhetz/gruvbox][gruvbox]] (dark, thanks to [[https://github.com/circleous][circleous]])
+* [[https://github.com/morhetz/gruvbox][gruvbox]] 
+** Dark
+- Contributor: [[https://github.com/circleous][circleous]]
 
-  [[file:./screenshots/gruvbox-dark.png]]
+[[file:./screenshots/gruvbox-dark.png]]
+  
+* Material
+** [[https://github.com/cpaulik/emacs-material-theme][material-theme (Emacs)]] (light)
+[[file:./screenshots/material-emacs-light.png]]
 
-- [[https://github.com/cpaulik/emacs-material-theme][material-theme (Emacs)]] (light)
+** [[http://equinsuocha.io/material-theme/#/darker][material-theme (Sublime)]] (darker)
 
-  [[file:./screenshots/material-emacs-light.png]]
+- Contributor: [[https://github.com/chantisnake][chantisnake]]
 
-- [[http://equinsuocha.io/material-theme/#/darker][material-theme (Sublime)]] (darker)
+[[file:./screenshots/material-sublime-darker.png]]
 
-  [[file:./screenshots/material-sublime-darker.png]]
+* [[https://github.com/kuanyui/moe-theme.el][moe-theme]] 
+** moe-light
+[[file:./screenshots/moe-light.png]]
 
-- [[https://github.com/kuanyui/moe-theme.el][moe-theme]] (light and dark)
+** moe-dark
 
-  [[file:./screenshots/moe-light.png]]
+[[file:./screenshots/moe-dark.png]]
 
-  [[file:./screenshots/moe-dark.png]]
+* [[http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/][Monokai]]
+[[file:./screenshots/monokai.png]]
 
-- [[http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/][Monokai]]
+* [[https://github.com/dunovank/oceans16-syntax][Oceans16]] (dark)
+[[file:./screenshots/oceans16-dark.png]]
 
-  [[file:./screenshots/monokai.png]]
+* Atom One
+** [[https://github.com/atom/one-light-syntax/][Atom One light]]
+- Contributor: [[https://github.com/ConnorGriffin][Connor Griffin]]
 
-- [[https://github.com/dunovank/oceans16-syntax][Oceans16]] (dark)
+[[file:./screenshots/one-dark.png]]
 
-  [[file:./screenshots/oceans16-dark.png]]
+** [[https://github.com/atom/one-dark-syntax][Atom One dark]]
+[[file:./screenshots/one-dark.png]]
 
-- [[https://github.com/atom/one-dark-syntax][One Dark]]
+* [[http://ethanschoonover.com/solarized][Solarized]] 
+** Light
+[[file:./screenshots/solarized-light.png]]
+** Dark
+[[file:./screenshots/solarized-dark.png]]
 
-  [[file:./screenshots/one-dark.png]]
-
-- [[http://ethanschoonover.com/solarized][Solarized]] (light and dark)
-
-  [[file:./screenshots/solarized-light.png]]
-
-  [[file:./screenshots/solarized-dark.png]]
-
-- [[https://github.com/nashamri/spacemacs-theme][Spacemacs]] (dark)
-
-  [[file:./screenshots/spacemacs-dark.png]]
+* [[https://github.com/nashamri/spacemacs-theme][Spacemacs]] (dark)
+[[file:./screenshots/spacemacs-dark.png]]
