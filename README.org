@@ -48,6 +48,7 @@ For all screenshots, see [[screenshots.org][screenshots]]
 - [[screenshots.org#solarized][Solarized]] (light and dark)
 - [[screenshots.org#spacemacs-dark][Spacemacs]] (dark)
 - [[screenshots.org#tango][Tango]] (dark)
+- [[screenshots.org#xfce4-terminal][xfce4-terminal]] (white on black)
 
 * How to Install
 ** Use =Install-ConEmuTheme.ps1= PowerShell script.

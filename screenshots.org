@@ -84,3 +84,8 @@
 - Contributor: [[https://github.com/rkitover][rkitover]] 
 
 [[file:./screenshots/tango-dark.png]]
+* xfce4-terminal
+** white on black
+- Contributor: [[https://github.com/tbekolay][tbekolay]] 
+
+[[file:./screenshots/xfce4-terminal-white-on-black.png]]
