@@ -44,6 +44,7 @@ For all screenshots, see [[screenshots.org][screenshots]]
 - [[screenshots.org#materialshell][Materialshell]] (Dark & Oceanic)
 - [[screenshots.org#moe-theme][moe-theme]] (light & dark)
 - [[screenshots.org#monokai][Monokai]]
+- [[screenshots.org#nord][Nord]]
 - [[screenshots.org#oceans16-dark][Oceans16]] (dark)
 - [[screenshots.org#rusty][Rusty]]
 - [[screenshots.org#solarized][Solarized]] (light and dark)

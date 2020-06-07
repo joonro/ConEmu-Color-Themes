@@ -67,7 +67,8 @@
 
 * [[http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/][Monokai]]
 [[file:./screenshots/monokai.png]]
-
+* [[https://www.nordtheme.com/][Nord]]
+[[file:./screenshots/nord.png]]
 * [[https://github.com/dunovank/oceans16-syntax][Oceans16]] (dark)
 [[file:./screenshots/oceans16-dark.png]]
 * Rusty
