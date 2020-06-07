@@ -2,8 +2,8 @@
 #+TITLE: Color Schemes for ConEmu
 #+AUTHOR: Joon Ro
 This repo originally started as a place to share my favorite color schemes
-that I ported from various sources to [[https://conemu.github.io/][ConEmu]]. Virtually all the recently added
-themes and improvements are from various contributors (thanks a lot!).
+that I ported from various sources to [[https://conemu.github.io/][ConEmu]]. A lot of recently added themes
+and improvements are from various contributors (thanks a lot!).
 
 I started porting color schemes manually because I found that automatically
 ported color schemes generally do not look good, because in many cases two
@@ -132,6 +132,8 @@ highlighting:
 [[file:./screenshots/ConEmu_Color_Options.png]]
 * Changelog
 ** June 2020
+*** 2
+- Add [[screenshots.org#nord][Nord]] theme
 *** 1
 - Add missing contributor information and screenshots for [[screenshots.org#rusty][Rusty]], [[screenshots.org#tango][Tango]] (dark),
   and [[screenshots.org#xfce4-terminal][xfce4-terminal]] (white on black)
