@@ -37,6 +37,11 @@
 [[file:./screenshots/dracula.png]]
 
 * [[https://github.com/morhetz/gruvbox][gruvbox]] 
+** Light
+- Contributor: [[https://github.com/Linerre][Linerre]]
+
+[[file:screenshots/gruvbox-light.png]]
+  
 ** Dark
 - Contributor: [[https://github.com/circleous][circleous]]
 
