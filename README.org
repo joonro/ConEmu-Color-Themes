@@ -36,7 +36,7 @@ For all screenshots, see [[screenshots.org][screenshots]]
 
 - [[screenshots.org#chalk][Chalk]]
 - [[screenshots.org#dracula][Dracula]]
-- [[screenshots.org#gruvbox][gruvbox]] (dark)
+- [[screenshots.org#gruvbox][gruvbox]] (light & dark)
 - Material
   - [[screenshots.org#material-theme-emacs-light][material-theme (Emacs)]] (light)
   - [[screenshots.org#material-theme-sublime-darker][material-theme (Sublime)]] (darker)
@@ -131,6 +131,8 @@ highlighting:
 
 [[file:./screenshots/ConEmu_Color_Options.png]]
 * Changelog
+** April 2021
+- Add [[https://github.com/morhetz/gruvbox][gruvbox]] light theme (thanks to [[https://github.com/Linerre][Linerre]])
 ** June 2020
 *** 2
 - Add [[screenshots.org#nord][Nord]] theme
