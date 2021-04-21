@@ -34,6 +34,6 @@
 					<!-- Magenta -->
 					<value name="ColorTable14" type="dword" data="002199d7"/>
 					<!-- Yellow (Exception in IPython) -->
-					<value name="ColorTable15" type="dword" data="00d7f5f9"/>
+					<value name="ColorTable15" type="dword" data="00713f8f"/>
 					<!-- White (Number, Git diff text) -->
 				</key>
