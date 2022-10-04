@@ -36,6 +36,17 @@
 
 [[file:./screenshots/dracula.png]]
 
+* [[https://github.com/thejos/Cmder-Color-Schemes][Flow]] 
+- Contributor: [[https://github.com/thejos][thejos]]
+
+** Light
+
+[[file:screenshots/flow_light.png]]
+  
+** Dark
+
+[[file:./screenshots/flow_dark.png]]
+
 * [[https://github.com/morhetz/gruvbox][gruvbox]] 
 ** Light
 - Contributor: [[https://github.com/Linerre][Linerre]]
