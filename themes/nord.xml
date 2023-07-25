@@ -1,5 +1,5 @@
         <key name="Palette1" modified="2015-04-05 12:51:32" build="150305">
-          <value name="Name" type="string" data="Default"/>
+          <value name="Name" type="string" data="Nord"/>
           <value name="TextColorIdx" type="hex" data="10"/>
           <value name="BackColorIdx" type="hex" data="10"/>
           <value name="PopTextColorIdx" type="hex" data="10"/>
